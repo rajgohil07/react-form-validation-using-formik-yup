@@ -164,7 +164,9 @@ export const SignUpForm = ({ setIsUserLoggedIn }) => {
                   onChange={handleChange}
                 />
                 {errors.agree_terms && touched.agree_terms ? (
-                  <span className="errorMessage">{errors.agree_terms}</span>
+                  <div className="termsAndConditionErrorSetter">
+                    <span className="errorMessage ">{errors.agree_terms}</span>
+                  </div>
                 ) : (
                   ""
                 )}
