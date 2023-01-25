@@ -48,6 +48,10 @@ export const SignUpForm = ({ setIsUserLoggedIn }) => {
     },
   });
 
+  // Code for disable the reset button
+  let disableResetButton = Object.keys(values);
+  disableResetButton = disableResetButton.filter((name) => values[name]).length;
+
   return (
     <MDBContainer fluid>
       <MDBCard className="text-black m-5" style={{ borderRadius: "25px" }}>
@@ -165,6 +169,8 @@ export const SignUpForm = ({ setIsUserLoggedIn }) => {
                   ""
                 )}
               </div>
+
+              {/* Buttons  */}
               <div className="spaceBetweenClass">
                 <MDBBtn
                   className="mb-4 padding-removed"
@@ -180,6 +186,7 @@ export const SignUpForm = ({ setIsUserLoggedIn }) => {
                   size="lg"
                   color="danger"
                   onClick={handleReset}
+                  disabled={disableResetButton === 0}
                 >
                   Reset form
                 </MDBBtn>
