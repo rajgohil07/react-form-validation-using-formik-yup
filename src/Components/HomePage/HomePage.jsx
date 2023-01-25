@@ -14,11 +14,11 @@ export const HomePage = ({ setIsUserLoggedIn }) => {
       <MDBContainer fluid>
         <div className="merger">
           <MDBBadge className="px-2" color="secondary" light>
-            <h5 className="my-0">Welcome back, {userName}!</h5>
+            <h5 className="my-0 badgeText">Welcome back, {userName}!</h5>
           </MDBBadge>
           <MDBBtn
             color="success"
-            className="me-2"
+            className="me-2 logoutButton"
             type="button"
             onClick={() => {
               clearSessionStorage();

@@ -67,7 +67,7 @@ export const SignUpForm = ({ setIsUserLoggedIn }) => {
               </p>
 
               {/* Name  */}
-              <div className="d-flex flex-row align-items-center mb-4 ">
+              <div className="d-flex flex-row align-items-center mb-4">
                 <MDBIcon fas icon="user me-3" size="lg" />
                 <div className="d-flex flex-column widthSetter">
                   <MDBInput
