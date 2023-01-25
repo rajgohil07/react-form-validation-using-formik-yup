@@ -1,0 +1,72 @@
+.spaceBetweenClass {
+    display: flex;
+    flex-direction: row;
+    width: 25vw;
+    justify-content: space-between;
+}
+
+.errorMessage {
+    font-size: 14px;
+    color: orangered;
+    font-weight: bold;
+    margin-left: 0.3rem;
+}
+
+.widthSetter {
+    width: 25vw;
+}
+
+@media only screen and (max-width:1300px) and (min-width:1100px) {
+    .spaceBetweenClass {
+        width: 35vw;
+    }
+
+    .widthSetter {
+        width: 30vw;
+    }
+}
+
+@media only screen and (max-width:1099px) and (min-width:992px) {
+    .spaceBetweenClass {
+        width: 38vw;
+    }
+
+    .widthSetter {
+        width: 33vw;
+    }
+}
+
+@media only screen and (max-width:991px) and (min-width:768px) {
+    .spaceBetweenClass {
+        width: 42vw;
+    }
+
+    .widthSetter {
+        width: 37vw;
+    }
+}
+
+@media only screen and (max-width:767px) and (min-width:550px) {
+    .spaceBetweenClass {
+        width: 55vw;
+    }
+
+    .widthSetter {
+        width: 50vw;
+    }
+}
+
+@media only screen and (max-width:549px) and (min-width:0px) {
+    .spaceBetweenClass {
+        width: 60vw;
+    }
+
+    .widthSetter {
+        width: 55vw;
+    }
+
+    .padding-removed {
+        padding: 0.5rem !important;
+        font-size: 0.9rem !important;
+    }
+}
