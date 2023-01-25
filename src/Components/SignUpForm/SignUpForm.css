@@ -65,9 +65,13 @@
     }
 }
 
-@media only screen and (max-width:549px) and (min-width:0px) {
+@media only screen and (max-width:549px) and (min-width:410px) {
     .spaceBetweenClass {
         width: 60vw;
+    }
+
+    .spaceBetweenClass>button {
+        margin-bottom: 0.5rem !important;
     }
 
     .widthSetter {
@@ -77,5 +81,49 @@
     .padding-removed {
         padding: 0.5rem !important;
         font-size: 0.9rem !important;
+    }
+
+    .checkboxLabel>.form-check>label {
+        font-size: 0.9rem !important;
+    }
+
+    .checkboxLabel {
+        margin-bottom: 0.8rem !important;
+    }
+
+    .errorMessage {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width:409px) and (min-width:0px) {
+    .spaceBetweenClass {
+        width: 55vw;
+    }
+
+    .spaceBetweenClass>button {
+        margin-bottom: 0.3rem !important;
+    }
+
+    .widthSetter {
+        width: 48vw;
+    }
+
+    .padding-removed {
+        padding: 0.4rem !important;
+        font-size: 0.8rem !important;
+    }
+
+    .checkboxLabel>.form-check>label {
+        font-size: 0.8rem !important;
+    }
+
+    .checkboxLabel {
+        margin-bottom: 0.8rem !important;
+    }
+
+    .errorMessage {
+        font-size: 13px;
+        white-space: pre-wrap
     }
 }

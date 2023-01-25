@@ -154,7 +154,7 @@ export const SignUpForm = ({ setIsUserLoggedIn }) => {
               </div>
 
               {/* Terms and conditions  */}
-              <div className="mb-4">
+              <div className="mb-4 checkboxLabel">
                 <MDBCheckbox
                   name="agree_terms"
                   id="flexCheckDefault"
