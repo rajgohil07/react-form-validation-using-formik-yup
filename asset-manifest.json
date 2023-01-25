@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react-form-validation-using-formik-yup/static/css/main.8d32d2f9.css",
-    "main.js": "/react-form-validation-using-formik-yup/static/js/main.837e07e8.js",
+    "main.css": "/react-form-validation-using-formik-yup/static/css/main.ce047c0e.css",
+    "main.js": "/react-form-validation-using-formik-yup/static/js/main.a40eadda.js",
     "static/media/fa-solid-900.ttf": "/react-form-validation-using-formik-yup/static/media/fa-solid-900.b1a653db79258eeccc5d.ttf",
     "static/media/fa-brands-400.ttf": "/react-form-validation-using-formik-yup/static/media/fa-brands-400.450a5c898f0b184b968b.ttf",
     "static/media/fa-solid-900.woff2": "/react-form-validation-using-formik-yup/static/media/fa-solid-900.41c0f706d8ce93933771.woff2",
@@ -11,11 +11,11 @@
     "static/media/fa-v4compatibility.ttf": "/react-form-validation-using-formik-yup/static/media/fa-v4compatibility.e314b618134d5be20996.ttf",
     "static/media/fa-v4compatibility.woff2": "/react-form-validation-using-formik-yup/static/media/fa-v4compatibility.4ee7f902d88f819e251c.woff2",
     "index.html": "/react-form-validation-using-formik-yup/index.html",
-    "main.8d32d2f9.css.map": "/react-form-validation-using-formik-yup/static/css/main.8d32d2f9.css.map",
-    "main.837e07e8.js.map": "/react-form-validation-using-formik-yup/static/js/main.837e07e8.js.map"
+    "main.ce047c0e.css.map": "/react-form-validation-using-formik-yup/static/css/main.ce047c0e.css.map",
+    "main.a40eadda.js.map": "/react-form-validation-using-formik-yup/static/js/main.a40eadda.js.map"
   },
   "entrypoints": [
-    "static/css/main.8d32d2f9.css",
-    "static/js/main.837e07e8.js"
+    "static/css/main.ce047c0e.css",
+    "static/js/main.a40eadda.js"
   ]
 }
